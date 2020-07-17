@@ -1,0 +1,331 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: grey;
+  font-weight: bold;
+  background: #c5d5dd;
+  padding: 2%;
+  text-align: center;
+}
+
+.mainTitle {
+  color: rgba(255, 255, 255, 0.408);
+  background: #c5d5dd;
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.769), 0 0 10px rgba(0, 0, 0, 0.605);
+  font-weight: normal;
+  font-size: xx-large;
+}
+
+.container {
+  display: inline-grid;
+  grid-template-columns: auto;
+}
+
+.box {
+  text-align: left;
+  width: 20em;
+  padding: 1em;
+  border-radius: 32px;
+  background: #c5d5dd;
+  box-shadow: 5px 5px 10px #a7b5bc, -5px -5px 10px #e3f5fe;
+  height: auto;
+}
+
+.smallBox {
+  margin: 5%;
+  width: 16em;
+  display: flow-root;
+  padding: 5%;
+  border-radius: 32px;
+  background: linear-gradient(145deg, #d3e4ec, #b1c0c7);
+  box-shadow: 18px 18px 36px #a7b5bc, -18px -18px 36px #e3f5fe;
+}
+
+.smallBoxOrange {
+  margin: 5%;
+  width: 16em;
+  display: flow-root;
+  padding: 5%;
+  border-radius: 32px;
+  background: linear-gradient(145deg, #ffbc2e, #e49e27);
+  box-shadow: 5px 5px 10px #a7b5bc, -5px -5px 10px #e3f5fe;
+}
+
+.smallerBox {
+  margin: 5%;
+  width: 16em;
+  display: flow-root;
+  padding: 5%;
+  border-radius: 16px;
+  background: #c5d5dd;
+  box-shadow: 10px 10px 19px #a7b5bc, -10px -10px 19px #e3f5fe;
+}
+
+.smallerBoxTodo {
+  margin: 5%;
+  width: 16em;
+  padding: 5%;
+  padding-bottom: 2em;
+  border-radius: 16px;
+  background: #c5d5dd;
+  box-shadow: 10px 10px 19px #a7b5bc, -10px -10px 19px #e3f5fe;
+}
+
+.button {
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  color: grey;
+  font-weight: 200;
+  border-style: none;
+  margin: 1%;
+  border-radius: 5px;
+  background: #c5d5dd;
+  box-shadow: 2px 2px 8px #a7b5bc, -2px -2px 8px #e3f5fe;
+}
+
+.button:hover {
+  border-style: none;
+  background: linear-gradient(145deg, #b1c0c7, #d3e4ec);
+  box-shadow: 2px 2px 8px #a7b5bc, -2px -2px 8px #e3f5fe;
+}
+
+.buttonRight {
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  color: grey;
+  font-weight: 200;
+  border-style: none;
+  margin: 1%;
+  margin-top: 0.5em;
+  margin-right: 0.8em;
+  float: right;
+  border-radius: 5px;
+  background: #c5d5dd;
+  box-shadow: 2px 2px 8px #a7b5bc, -2px -2px 8px #e3f5fe;
+}
+.buttonRight:hover {
+  border-style: none;
+  background: linear-gradient(145deg, #b1c0c7, #d3e4ec);
+  box-shadow: 2px 2px 8px #a7b5bc, -2px -2px 8px #e3f5fe;
+}
+
+.buttonRightOrange {
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  color: grey;
+  font-weight: 200;
+  border-style: none;
+  margin: 1%;
+  margin-top: 0.5em;
+  margin-right: 0.8em;
+  float: right;
+  border-radius: 5px;
+  background: #fdb02b;
+  box-shadow: 2px 2px 4px #d79625, -2px -2px 4px #ffca31;
+}
+.buttonRightOrange:hover {
+  border-style: none;
+  background: linear-gradient(145deg, #e49e27, #ffbc2e);
+  box-shadow: 2px 2px 4px #d79625, -2px -2px 4px #ffca31;
+}
+
+.buttonLeft {
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  color: grey;
+  font-weight: 200;
+  border-style: none;
+  margin: 1%;
+  margin-top: 0.5em;
+  float: right;
+  border-radius: 5px;
+  background: #c5d5dd;
+  box-shadow: 2px 2px 8px #a7b5bc, -2px -2px 8px #e3f5fe;
+}
+.buttonLeft:hover {
+  border-style: none;
+  background: linear-gradient(145deg, #b1c0c7, #d3e4ec);
+  box-shadow: 2px 2px 8px #a7b5bc, -2px -2px 8px #e3f5fe;
+}
+
+.buttonLeftOrange {
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  color: grey;
+  font-weight: 200;
+  border-style: none;
+  margin: 1%;
+  margin-top: 0.5em;
+  float: right;
+  border-radius: 5px;
+  background: #fdb02b;
+  box-shadow: 2px 2px 4px #d79625, -2px -2px 4px #ffca31;
+}
+.buttonLeftOrange:hover {
+  border-style: none;
+  background: linear-gradient(145deg, #e49e27, #ffbc2e);
+  box-shadow: 2px 2px 4px #d79625, -2px -2px 4px #ffca31;
+}
+
+.dataButton {
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(255, 166, 166);
+  font-weight: 700;
+  border-style: none;
+  margin: 1%;
+  margin-top: 0.5em;
+  border-radius: 5px;
+  background: #f26464;
+  box-shadow: 2px 2px 8px #a7b5bc, -2px -2px 8px #e3f5fe;
+}
+.dataButton:hover {
+  color: rgb(39, 129, 255);
+  border-style: none;
+  background: linear-gradient(145deg, #4fa3cd, #5ec2f4);
+  box-shadow: 2px 2px 8px #a7b5bc, -2px -2px 8px #e3f5fe;
+}
+
+.markCompleted {
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  color: grey;
+  font-weight: 200;
+  border-style: none;
+  margin: 1%;
+  margin-top: 0.5em;
+  margin-right: 0.8em;
+  float: right;
+  border-radius: 5px;
+  background: #c5d5dd;
+  box-shadow: 2px 2px 8px #a7b5bc, -2px -2px 8px #e3f5fe;
+}
+
+.markCompleted:hover {
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  color: grey;
+  font-weight: 200;
+  border-style: none;
+  margin: 1%;
+  margin-top: 0.5em;
+  margin-right: 0.8em;
+  float: right;
+  border-radius: 5px;
+  background: #5ed881;
+  box-shadow: 2px 2px 8px #a7b5bc, -2px -2px 8px #e3f5fe;
+}
+
+.dataButtonOrange {
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(255, 166, 166);
+  font-weight: 700;
+  border-style: none;
+  margin: 1%;
+  margin-top: 0.5em;
+  border-radius: 5px;
+  background: #f26464;
+  box-shadow: 2px 2px 4px #d79625, -2px -2px 4px #ffca31;
+}
+.dataButtonOrange:hover {
+  border-style: none;
+  background: linear-gradient(145deg, #2374e6, #2a8aff);
+  box-shadow: 2px 2px 4px #d79625, -2px -2px 4px #ffca31;
+}
+
+
+
+.otherData {
+  margin: 5%;
+  width: 12em;
+  padding: 5%;
+  border-radius: 32px;
+  background: linear-gradient(145deg, #d3e4ec, #b1c0c7);
+  box-shadow: 18px 18px 36px #a7b5bc, -18px -18px 36px #e3f5fe;
+}
+
+.otherDataOrange {
+  margin: 5%;
+  width: 12em;
+  padding: 5%;
+  border-radius: 32px;
+  background: linear-gradient(145deg, #ffbc2e, #e49e27);
+  box-shadow: 10px 10px 20px #d79625, -10px -10px 20px #ffca31;
+}
+
+.input {
+  font-family: "Montserrat", sans-serif;
+  margin: 1%;
+  color: grey;
+  font-weight: bold;
+  border-style: none;
+  border-radius: 5px;
+  background: #c5d5dd;
+  box-shadow: inset 2px 2px 8px #a7b5bc, inset -2px -2px 8px #e3f5fe;
+}
+.inputOrange {
+  font-family: "Montserrat", sans-serif;
+  margin: 1%;
+  color: grey;
+  font-weight: bold;
+  border-style: none;
+  border-radius: 5px;
+  background: #fdb02b;
+  box-shadow: inset 2px 2px 4px #d79625, inset -2px -2px 4px #ffca31;
+}
+
+.title {
+  margin-left: 1em;
+}
+
+.subtitle {
+  color: rgb(98, 96, 96);
+  margin-right: 1em;
+}
+
+.IDlable:hover {
+  color: rgb(39, 129, 255);
+  cursor: pointer;
+}
+
+.backButton {
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(174, 174, 174);
+  font-weight: 900;
+  font-size: large;
+  border-style: none;
+  margin: 1%;
+  border-radius: 100px;
+  background: #becdd5;
+  box-shadow: 2px 2px 8px #a7b5bc, -2px -2px 8px #e3f5fe;
+}
+.backButton:hover {
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(144, 143, 143);
+  font-weight: 400;
+  font-size: large;
+  border-style: none;
+  margin: 1%;
+  border-radius: 20px;
+  background: linear-gradient(145deg, #e49e27, #ffbc2e);
+  box-shadow: 2px 2px 8px #a7b5bc, -2px -2px 8px #e3f5fe;
+}
+
+.fadeIn {
+  opacity: 1;
+  transition: opacity 0.5s 0.5s;
+}
+
+.fadeInSmall {
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+.fadeOut {
+  opacity: 0;
+  transition: opacity 1s;
+}
